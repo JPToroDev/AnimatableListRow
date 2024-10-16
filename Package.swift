@@ -5,15 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "AnimatableListRow",
+    platforms: [.macOS(.v15), .iOS(.v18), .watchOS(.v11), .tvOS(.v18), .macCatalyst(.v15)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "AnimatableListRow",
             targets: ["AnimatableListRow"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "AnimatableListRow"),
         .testTarget(
