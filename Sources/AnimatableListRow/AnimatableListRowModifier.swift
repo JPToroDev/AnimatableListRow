@@ -2,7 +2,7 @@
 //  AnimatableListRowModifier.swift
 //  AnimatableListRow
 //
-//  Created by Joshua Toro on 10/16/24.
+//  Created by JP Toro on 10/16/24.
 //
 
 import SwiftUI
@@ -18,8 +18,14 @@ struct AnimatableListRowModifier: ViewModifier {
     }
 }
 
-extension View {
-    func animatableListRow(animation: Animation? = .default) -> some View {
+public extension View {
+    /// Wraps the view in an AnimatableListRow, enabling smooth height transitions.
+    ///
+    /// Use this modifier to make any view animate its height changes when used in a list.
+    ///
+    /// - Parameter animation: The animation to apply to height changes. Defaults to `.easeInOut` if not specified.
+    /// - Returns: A view wrapped in an AnimatableListRow.
+    func animatableListRow(animation: Animation? = .easeInOut) -> some View {
         modifier(AnimatableListRowModifier(animation: animation))
     }
 }

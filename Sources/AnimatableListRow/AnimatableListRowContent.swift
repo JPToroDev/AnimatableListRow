@@ -2,7 +2,7 @@
 //  AnimatableListRowContent.swift
 //  AnimatableListRow
 //
-//  Created by Joshua Toro on 10/16/24.
+//  Created by JP Toro on 10/16/24.
 //
 
 import SwiftUI
