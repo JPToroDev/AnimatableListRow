@@ -1,10 +1,18 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f4ddcdf3-7657-4b7a-8cbd-d0186513778e" height="500">
+</div>
+
+<div align="center">
+
 # AnimatableListRow 📱✨
 
-`AnimatableListRow` is a Swift package that solves the long-standing issue of smooth height transitions for SwiftUI List rows. It provides an elegant and flexible solution for animating height changes in List views without relying on hardcoded values or deprecated APIs.
+`AnimatableListRow` is a Swift package that solves the long-standing issue of smooth height transitions for SwiftUI List rows. It provides an elegant and flexible solution for animating height changes in `List` views without relying on hardcoded values or deprecated APIs.
 
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-iOS%2018%2B%20%7C%20macOS%2015%2B-lightgrey.svg)](https://developer.apple.com/)
+
+</div>
 
 ## Background 🔍
 
@@ -14,15 +22,6 @@ SwiftUI's List component doesn't natively support smooth height animations for i
 2. It used `AnimatableModifier`, which has been deprecated as of iOS 18.1 and aligned releases.
 
 `AnimatableListRow` addresses these issues, providing a more robust and future-proof solution.
-
-## Demo 📹
-<div>
-<img src="https://github.com/user-attachments/assets/f4ddcdf3-7657-4b7a-8cbd-d0186513778e" height="500">
-<br>
-<br>
-<img src="https://github.com/user-attachments/assets/b25673d2-c439-495a-8926-bcdbdcf58899" height="300">
-
-</div>
 
 ## Features 🌟
 
