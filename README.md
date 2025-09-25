@@ -6,7 +6,7 @@
 
 # AnimatableListRow 📱✨
 
-`AnimatableListRow` is a Swift package that solves the long-standing issue of smooth height transitions for SwiftUI List rows. It provides an elegant and flexible solution for animating height changes in `List` views without relying on hardcoded values or deprecated APIs.
+`AnimatableListRow` is a Swift package that solves the long-standing issue of smooth height transitions for SwiftUI `List` rows. It provides an elegant and flexible solution for animating height changes in `List` views without relying on hardcoded values or deprecated APIs.
 
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
