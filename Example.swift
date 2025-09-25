@@ -1,16 +1,16 @@
 //
-//  Example.swift
-//  AnimatableListRow
-//
-//  Created by Joshua Toro on 10/16/24.
+// Example.swift
+// AnimatableListRow
+// https://github.com/JPToroDev/AnimatableListRow
+// See LICENSE for license information.
+// © 2024 J.P. Toro
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    
     @State private var isExpanded: Bool = false
-    
+
     var body: some View {
         List {
             Button("Is Expanded") {

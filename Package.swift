@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "AnimatableListRow",
-            targets: ["AnimatableListRow"]),
+            targets: ["AnimatableListRow"])
     ],
     targets: [
         .target(
@@ -17,6 +17,6 @@ let package = Package(
         .testTarget(
             name: "AnimatableListRowTests",
             dependencies: ["AnimatableListRow"]
-        ),
+        )
     ]
 )
